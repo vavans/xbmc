@@ -1,0 +1,6 @@
+Fix dailymotion plugin with live streams
+ - default.py is tweaked by Shani : https://bitbucket.org/shani-08/shanixbmcwork/src
+ - copy default.py and addon.xml to your /home/pi/.kodi/addons/plugin.video.dailymotion_com
+ - in order to work, you need 2 more plugins:
+    > script.video.F4mProxy
+    > script.module.requests2
